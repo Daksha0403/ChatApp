@@ -1,0 +1,744 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.chatapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:10:5-79
+11-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:10:22-76
+12    <uses-permission android:name="android.permission.INTERNET" /> <!-- Used to check if a browser is available before launching phone auth -->
+12-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:11:5-67
+12-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:11:22-64
+13    <!-- See ui/phone/PhoneNumberVerificationHandler.isBrowserAvailable() -->
+14    <queries>
+14-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:15:5-23:15
+15        <intent>
+15-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:16:9-22:18
+16            <action android:name="android.intent.action.VIEW" />
+16-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:17:13-65
+16-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:17:21-62
+17
+18            <category android:name="android.intent.category.BROWSABLE" />
+18-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:19:13-74
+18-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:19:23-71
+19
+20            <data android:scheme="http" />
+20-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:21:13-43
+20-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:21:19-40
+21        </intent>
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+24-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:23:5-77
+24-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:23:22-74
+25    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+25-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:24:5-68
+25-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:24:22-65
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:26:5-82
+26-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:26:22-79
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+27-->[com.google.android.gms:play-services-measurement:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a9ec286dd1ecfe772d4704af5394875d\transformed\play-services-measurement-19.0.2\AndroidManifest.xml:26:5-110
+27-->[com.google.android.gms:play-services-measurement:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a9ec286dd1ecfe772d4704af5394875d\transformed\play-services-measurement-19.0.2\AndroidManifest.xml:26:22-107
+28
+29    <permission
+29-->[androidx.core:core:1.9.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\45dba061abe1e5d647d9f295032bd2d4\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+30        android:name="com.example.chatapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.9.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\45dba061abe1e5d647d9f295032bd2d4\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.9.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\45dba061abe1e5d647d9f295032bd2d4\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.example.chatapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.9.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\45dba061abe1e5d647d9f295032bd2d4\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.9.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\45dba061abe1e5d647d9f295032bd2d4\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:5:5-50:19
+36        android:allowBackup="true"
+36-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:6:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.9.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\45dba061abe1e5d647d9f295032bd2d4\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+38        android:dataExtractionRules="@xml/data_extraction_rules"
+38-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:7:9-65
+39        android:debuggable="true"
+40        android:extractNativeLibs="true"
+41        android:fullBackupContent="@xml/backup_rules"
+41-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:8:9-54
+42        android:icon="@drawable/mychatapplogo"
+42-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:9:9-47
+43        android:label="@string/app_name"
+43-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:10:9-41
+44        android:roundIcon="@drawable/mychatapplogo"
+44-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:11:9-52
+45        android:supportsRtl="true"
+45-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:12:9-35
+46        android:testOnly="true"
+47        android:theme="@style/Theme.ChatApp" >
+47-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:13:9-45
+48        <activity
+48-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:15:9-17:40
+49            android:name="com.example.chatapp.specificchat"
+49-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:16:13-41
+50            android:exported="false" />
+50-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:17:13-37
+51        <activity
+51-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:18:9-20:40
+52            android:name="com.example.chatapp.UpdateProfile"
+52-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:19:13-42
+53            android:exported="false" />
+53-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:20:13-37
+54        <activity
+54-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:21:9-23:40
+55            android:name="com.example.chatapp.ProfileActivity"
+55-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:22:13-44
+56            android:exported="false" />
+56-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:23:13-37
+57        <activity
+57-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:24:9-28:52
+58            android:name="com.example.chatapp.userprofile"
+58-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:25:13-40
+59            android:exported="false"
+59-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:26:13-37
+60            android:label="@string/title_activity_userprofile"
+60-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:27:13-63
+61            android:theme="@style/Theme.ChatApp" />
+61-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:28:13-49
+62        <activity
+62-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:29:9-31:40
+63            android:name="com.example.chatapp.chatActivity"
+63-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:30:13-41
+64            android:exported="false" />
+64-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:31:13-37
+65        <activity
+65-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:32:9-34:40
+66            android:name="com.example.chatapp.setProfile"
+66-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:33:13-39
+67            android:exported="false" />
+67-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:34:13-37
+68        <activity
+68-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:35:9-37:40
+69            android:name="com.example.chatapp.otpAuthentication"
+69-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:36:13-46
+70            android:exported="false" />
+70-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:37:13-37
+71        <activity
+71-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:38:9-40:40
+72            android:name="com.example.chatapp.MainActivity"
+72-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:39:13-41
+73            android:exported="false" />
+73-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:40:13-37
+74        <activity
+74-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:41:9-49:20
+75            android:name="com.example.chatapp.splashscreen"
+75-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:42:13-41
+76            android:exported="true" >
+76-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:43:13-36
+77            <intent-filter>
+77-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:44:13-48:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:45:17-69
+78-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:45:25-66
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:47:17-77
+80-->D:\MyChatApplication\app\src\main\AndroidManifest.xml:47:27-74
+81            </intent-filter>
+82        </activity>
+83
+84        <meta-data
+84-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:26:9-28:69
+85            android:name="com.google.android.gms.version"
+85-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:27:13-58
+86            android:value="@integer/google_play_services_version" />
+86-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:28:13-66
+87        <meta-data
+87-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:29:9-31:63
+88            android:name="com.facebook.sdk.ApplicationId"
+88-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:30:13-58
+89            android:value="@string/facebook_application_id" />
+89-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:31:13-60
+90
+91        <activity
+91-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:33:9-37:61
+92            android:name="com.firebase.ui.auth.KickoffActivity"
+92-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:34:13-64
+93            android:exported="false"
+93-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:35:13-37
+94            android:label=""
+94-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:36:13-29
+95            android:theme="@style/FirebaseUI.Transparent" />
+95-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:37:13-58
+96        <activity
+96-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:38:9-42:61
+97            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+97-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:39:13-76
+98            android:exported="false"
+98-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:40:13-37
+99            android:label=""
+99-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:41:13-29
+100            android:theme="@style/FirebaseUI.Transparent" />
+100-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:42:13-58
+101        <activity
+101-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:43:9-47:61
+102            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+102-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:44:13-86
+103            android:exported="false"
+103-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:45:13-37
+104            android:label=""
+104-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:46:13-29
+105            android:theme="@style/FirebaseUI.Transparent" />
+105-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:47:13-58
+106        <activity
+106-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:48:9-52:58
+107            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+107-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:49:13-81
+108            android:exported="false"
+108-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:50:13-37
+109            android:label="@string/fui_title_recover_password_activity"
+109-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:51:13-72
+110            android:windowSoftInputMode="adjustResize" />
+110-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:52:13-55
+111        <activity
+111-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:53:9-57:58
+112            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+112-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:54:13-71
+113            android:exported="false"
+113-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:55:13-37
+114            android:label="@string/fui_sign_in_default"
+114-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:56:13-56
+115            android:windowSoftInputMode="adjustResize" />
+115-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:57:13-55
+116        <activity
+116-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:58:9-62:77
+117            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+117-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:59:13-71
+118            android:exported="false"
+118-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:60:13-37
+119            android:label="@string/fui_sign_in_with_phone_number"
+119-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:61:13-66
+120            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+120-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:62:13-74
+121        <activity
+121-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:63:9-67:58
+122            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+122-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:64:13-76
+123            android:exported="false"
+123-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:65:13-37
+124            android:label="@string/fui_title_welcome_back_idp_prompt"
+124-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:66:13-70
+125            android:windowSoftInputMode="adjustResize" />
+125-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:67:13-55
+126        <activity
+126-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:68:9-72:58
+127            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+127-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:69:13-83
+128            android:exported="false"
+128-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:70:13-37
+129            android:label="@string/fui_title_welcome_back_password_prompt"
+129-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:71:13-75
+130            android:windowSoftInputMode="adjustResize" />
+130-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:72:13-55
+131        <activity
+131-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:73:9-77:58
+132            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+132-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:74:13-84
+133            android:exported="false"
+133-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:75:13-37
+134            android:label="@string/fui_title_welcome_back_password_prompt"
+134-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:76:13-75
+135            android:windowSoftInputMode="adjustResize" />
+135-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:77:13-55
+136        <activity
+136-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:78:9-83:58
+137            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+137-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:79:13-82
+138            android:exported="false"
+138-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:80:13-37
+139            android:label=""
+139-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:81:13-29
+140            android:theme="@style/FirebaseUI.Transparent"
+140-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:82:13-58
+141            android:windowSoftInputMode="adjustResize" />
+141-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:83:13-55
+142        <activity
+142-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:84:9-88:58
+143            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+143-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:85:13-88
+144            android:exported="false"
+144-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:86:13-37
+145            android:label="@string/fui_sign_in_default"
+145-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:87:13-56
+146            android:windowSoftInputMode="adjustResize" />
+146-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:88:13-55
+147        <activity
+147-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:89:9-92:65
+148            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+148-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:90:13-80
+149            android:exported="false"
+149-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:91:13-37
+150            android:label="@string/fui_default_toolbar_title" />
+150-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:92:13-62
+151        <activity
+151-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:93:9-97:48
+152            android:name="com.facebook.FacebookActivity"
+152-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:94:13-57
+153            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+153-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:95:13-96
+154            android:label="@string/app_name" />
+154-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:96:13-45
+155        <activity
+155-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:98:9-110:20
+156            android:name="com.facebook.CustomTabActivity"
+156-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:99:13-58
+157            android:exported="true" >
+157-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:100:13-36
+158            <intent-filter>
+158-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:102:13-109:29
+159                <action android:name="android.intent.action.VIEW" />
+159-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:17:13-65
+159-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:17:21-62
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:105:17-76
+161-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:105:27-73
+162                <category android:name="android.intent.category.BROWSABLE" />
+162-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:19:13-74
+162-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:19:23-71
+163
+164                <data android:scheme="@string/facebook_login_protocol_scheme" />
+164-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:21:13-43
+164-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:21:19-40
+165            </intent-filter>
+166        </activity>
+167
+168        <provider
+168-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:112:9-116:38
+169            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+169-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:113:13-79
+170            android:authorities="com.example.chatapp.authuiinitprovider"
+170-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:114:13-70
+171            android:exported="false"
+171-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:115:13-37
+172            android:initOrder="90" />
+172-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:116:13-35
+173
+174        <activity
+174-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:29:9-46:20
+175            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+175-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:30:13-80
+176            android:excludeFromRecents="true"
+176-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:31:13-46
+177            android:exported="true"
+177-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:32:13-36
+178            android:launchMode="singleTask"
+178-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:33:13-44
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+179-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:34:13-72
+180            <intent-filter>
+180-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:35:13-45:29
+181                <action android:name="android.intent.action.VIEW" />
+181-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:17:13-65
+181-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:17:21-62
+182
+183                <category android:name="android.intent.category.DEFAULT" />
+183-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:105:17-76
+183-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:105:27-73
+184                <category android:name="android.intent.category.BROWSABLE" />
+184-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:19:13-74
+184-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:19:23-71
+185
+186                <data
+186-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:21:13-43
+187                    android:host="firebase.auth"
+188                    android:path="/"
+189                    android:scheme="genericidp" />
+189-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:21:19-40
+190            </intent-filter>
+191        </activity>
+192        <activity
+192-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:47:9-64:20
+193            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+193-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:48:13-79
+194            android:excludeFromRecents="true"
+194-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:49:13-46
+195            android:exported="true"
+195-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:50:13-36
+196            android:launchMode="singleTask"
+196-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:51:13-44
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+197-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:52:13-72
+198            <intent-filter>
+198-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:53:13-63:29
+199                <action android:name="android.intent.action.VIEW" />
+199-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:17:13-65
+199-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:17:21-62
+200
+201                <category android:name="android.intent.category.DEFAULT" />
+201-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:105:17-76
+201-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:105:27-73
+202                <category android:name="android.intent.category.BROWSABLE" />
+202-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:19:13-74
+202-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:19:23-71
+203
+204                <data
+204-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:21:13-43
+205                    android:host="firebase.auth"
+206                    android:path="/"
+207                    android:scheme="recaptcha" />
+207-->[com.firebaseui:firebase-ui-auth:8.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\8e1dc8aaddae302c84f6829f03660de2\transformed\firebase-ui-auth-8.0.2\AndroidManifest.xml:21:19-40
+208            </intent-filter>
+209        </activity>
+210
+211        <service
+211-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:66:9-72:19
+212            android:name="com.google.firebase.components.ComponentDiscoveryService"
+212-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:67:13-84
+213            android:directBootAware="true"
+213-->[com.google.firebase:firebase-common:20.4.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\51eb42b334691e771d1e321cb2b4384a\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+214            android:exported="false" >
+214-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:68:13-37
+215            <meta-data
+215-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:69:13-71:85
+216                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+216-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:70:17-109
+217                android:value="com.google.firebase.components.ComponentRegistrar" />
+217-->[com.google.firebase:firebase-auth:22.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\25e2e8b467076ccf84e6d16a1ae3bb39\transformed\firebase-auth-22.2.0\AndroidManifest.xml:71:17-82
+218            <meta-data
+218-->[com.google.firebase:firebase-database:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\73c90495d2ae38a10237f955e2b7f1f9\transformed\firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+219                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+219-->[com.google.firebase:firebase-database:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\73c90495d2ae38a10237f955e2b7f1f9\transformed\firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+220                android:value="com.google.firebase.components.ComponentRegistrar" />
+220-->[com.google.firebase:firebase-database:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\73c90495d2ae38a10237f955e2b7f1f9\transformed\firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+221            <meta-data
+221-->[com.google.firebase:firebase-database:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\73c90495d2ae38a10237f955e2b7f1f9\transformed\firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
+222                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+222-->[com.google.firebase:firebase-database:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\73c90495d2ae38a10237f955e2b7f1f9\transformed\firebase-database-20.3.0\AndroidManifest.xml:33:17-109
+223                android:value="com.google.firebase.components.ComponentRegistrar" />
+223-->[com.google.firebase:firebase-database:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\73c90495d2ae38a10237f955e2b7f1f9\transformed\firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+224            <meta-data
+224-->[com.google.firebase:firebase-storage:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\23779f0c731bec729ff048aff14e24dd\transformed\firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+225                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+225-->[com.google.firebase:firebase-storage:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\23779f0c731bec729ff048aff14e24dd\transformed\firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+226                android:value="com.google.firebase.components.ComponentRegistrar" />
+226-->[com.google.firebase:firebase-storage:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\23779f0c731bec729ff048aff14e24dd\transformed\firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+227            <meta-data
+227-->[com.google.firebase:firebase-storage:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\23779f0c731bec729ff048aff14e24dd\transformed\firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+228                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+228-->[com.google.firebase:firebase-storage:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\23779f0c731bec729ff048aff14e24dd\transformed\firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+229                android:value="com.google.firebase.components.ComponentRegistrar" />
+229-->[com.google.firebase:firebase-storage:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\23779f0c731bec729ff048aff14e24dd\transformed\firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+230            <meta-data
+230-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:57:13-59:85
+231                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+231-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:58:17-122
+232                android:value="com.google.firebase.components.ComponentRegistrar" />
+232-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:59:17-82
+233            <meta-data
+233-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:60:13-62:85
+234                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+234-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:61:17-119
+235                android:value="com.google.firebase.components.ComponentRegistrar" />
+235-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:62:17-82
+236            <meta-data
+236-->[com.google.firebase:firebase-firestore:24.9.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\1bfb389f0a186117718ca823340120a1\transformed\firebase-firestore-24.9.1\AndroidManifest.xml:17:13-19:85
+237                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+237-->[com.google.firebase:firebase-firestore:24.9.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\1bfb389f0a186117718ca823340120a1\transformed\firebase-firestore-24.9.1\AndroidManifest.xml:18:17-122
+238                android:value="com.google.firebase.components.ComponentRegistrar" />
+238-->[com.google.firebase:firebase-firestore:24.9.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\1bfb389f0a186117718ca823340120a1\transformed\firebase-firestore-24.9.1\AndroidManifest.xml:19:17-82
+239            <meta-data
+239-->[com.google.firebase:firebase-firestore:24.9.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\1bfb389f0a186117718ca823340120a1\transformed\firebase-firestore-24.9.1\AndroidManifest.xml:20:13-22:85
+240                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+240-->[com.google.firebase:firebase-firestore:24.9.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\1bfb389f0a186117718ca823340120a1\transformed\firebase-firestore-24.9.1\AndroidManifest.xml:21:17-111
+241                android:value="com.google.firebase.components.ComponentRegistrar" />
+241-->[com.google.firebase:firebase-firestore:24.9.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\1bfb389f0a186117718ca823340120a1\transformed\firebase-firestore-24.9.1\AndroidManifest.xml:22:17-82
+242            <meta-data
+242-->[com.google.firebase:firebase-appcheck:17.1.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cf41f0e60a1e73e52f7c3db4760d0bb8\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:25:13-27:85
+243                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+243-->[com.google.firebase:firebase-appcheck:17.1.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cf41f0e60a1e73e52f7c3db4760d0bb8\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:26:17-120
+244                android:value="com.google.firebase.components.ComponentRegistrar" />
+244-->[com.google.firebase:firebase-appcheck:17.1.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cf41f0e60a1e73e52f7c3db4760d0bb8\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:27:17-82
+245            <meta-data
+245-->[com.google.firebase:firebase-appcheck:17.1.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cf41f0e60a1e73e52f7c3db4760d0bb8\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:28:13-30:85
+246                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+246-->[com.google.firebase:firebase-appcheck:17.1.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cf41f0e60a1e73e52f7c3db4760d0bb8\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:29:17-117
+247                android:value="com.google.firebase.components.ComponentRegistrar" />
+247-->[com.google.firebase:firebase-appcheck:17.1.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cf41f0e60a1e73e52f7c3db4760d0bb8\transformed\firebase-appcheck-17.1.0\AndroidManifest.xml:30:17-82
+248            <meta-data
+248-->[com.google.android.gms:play-services-measurement-api:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cc552753d1c0fede0a5ebd9c01384f5c\transformed\play-services-measurement-api-19.0.2\AndroidManifest.xml:30:13-32:85
+249                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+249-->[com.google.android.gms:play-services-measurement-api:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cc552753d1c0fede0a5ebd9c01384f5c\transformed\play-services-measurement-api-19.0.2\AndroidManifest.xml:31:17-139
+250                android:value="com.google.firebase.components.ComponentRegistrar" />
+250-->[com.google.android.gms:play-services-measurement-api:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cc552753d1c0fede0a5ebd9c01384f5c\transformed\play-services-measurement-api-19.0.2\AndroidManifest.xml:32:17-82
+251            <meta-data
+251-->[com.google.firebase:firebase-installations:17.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\7933b9cf55afdd6610b3705db70facd7\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+252                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+252-->[com.google.firebase:firebase-installations:17.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\7933b9cf55afdd6610b3705db70facd7\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+253                android:value="com.google.firebase.components.ComponentRegistrar" />
+253-->[com.google.firebase:firebase-installations:17.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\7933b9cf55afdd6610b3705db70facd7\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+254            <meta-data
+254-->[com.google.firebase:firebase-installations:17.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\7933b9cf55afdd6610b3705db70facd7\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+255                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+255-->[com.google.firebase:firebase-installations:17.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\7933b9cf55afdd6610b3705db70facd7\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+256                android:value="com.google.firebase.components.ComponentRegistrar" />
+256-->[com.google.firebase:firebase-installations:17.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\7933b9cf55afdd6610b3705db70facd7\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+257            <meta-data
+257-->[com.google.firebase:firebase-common-ktx:20.4.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\853631cffb0dfb84a35792d241b74847\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+258                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+258-->[com.google.firebase:firebase-common-ktx:20.4.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\853631cffb0dfb84a35792d241b74847\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+259                android:value="com.google.firebase.components.ComponentRegistrar" />
+259-->[com.google.firebase:firebase-common-ktx:20.4.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\853631cffb0dfb84a35792d241b74847\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+260            <meta-data
+260-->[com.google.firebase:firebase-common:20.4.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\51eb42b334691e771d1e321cb2b4384a\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+261                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+261-->[com.google.firebase:firebase-common:20.4.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\51eb42b334691e771d1e321cb2b4384a\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+262                android:value="com.google.firebase.components.ComponentRegistrar" />
+262-->[com.google.firebase:firebase-common:20.4.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\51eb42b334691e771d1e321cb2b4384a\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+263            <meta-data
+263-->[com.google.firebase:firebase-datatransport:18.1.7] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\ff267e6e32b58787c754b1fa03df2cec\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+264                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+264-->[com.google.firebase:firebase-datatransport:18.1.7] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\ff267e6e32b58787c754b1fa03df2cec\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+265                android:value="com.google.firebase.components.ComponentRegistrar" />
+265-->[com.google.firebase:firebase-datatransport:18.1.7] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\ff267e6e32b58787c754b1fa03df2cec\transformed\firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+266        </service>
+267
+268        <receiver
+268-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:29:9-40:20
+269            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+269-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:30:13-78
+270            android:exported="true"
+270-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:31:13-36
+271            android:permission="com.google.android.c2dm.permission.SEND" >
+271-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:32:13-73
+272            <intent-filter>
+272-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:33:13-35:29
+273                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+273-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:34:17-81
+273-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:34:25-78
+274            </intent-filter>
+275
+276            <meta-data
+276-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:37:13-39:40
+277                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+277-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:38:17-92
+278                android:value="true" />
+278-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:39:17-37
+279        </receiver>
+280        <!--
+281             FirebaseMessagingService performs security checks at runtime,
+282             but set to not exported to explicitly avoid allowing another app to call it.
+283        -->
+284        <service
+284-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:46:9-53:19
+285            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+285-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:47:13-82
+286            android:directBootAware="true"
+286-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:48:13-43
+287            android:exported="false" >
+287-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:49:13-37
+288            <intent-filter android:priority="-500" >
+288-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:50:13-52:29
+288-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:50:28-51
+289                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+289-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:51:17-78
+289-->[com.google.firebase:firebase-messaging:23.3.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\f941093175bb95a389698bcdeeb4e888\transformed\firebase-messaging-23.3.1\AndroidManifest.xml:51:25-75
+290            </intent-filter>
+291        </service>
+292
+293        <provider
+293-->[com.squareup.picasso:picasso:2.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a04c1d383f556cbd9b09d59bb3a74bab\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+294            android:name="com.squareup.picasso.PicassoProvider"
+294-->[com.squareup.picasso:picasso:2.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a04c1d383f556cbd9b09d59bb3a74bab\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
+295            android:authorities="com.example.chatapp.com.squareup.picasso"
+295-->[com.squareup.picasso:picasso:2.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a04c1d383f556cbd9b09d59bb3a74bab\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+296            android:exported="false" />
+296-->[com.squareup.picasso:picasso:2.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a04c1d383f556cbd9b09d59bb3a74bab\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+297        <provider
+297-->[androidx.emoji2:emoji2:1.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cda509cc96bd5991df7deaeed19a12fa\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+298            android:name="androidx.startup.InitializationProvider"
+298-->[androidx.emoji2:emoji2:1.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cda509cc96bd5991df7deaeed19a12fa\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+299            android:authorities="com.example.chatapp.androidx-startup"
+299-->[androidx.emoji2:emoji2:1.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cda509cc96bd5991df7deaeed19a12fa\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+300            android:exported="false" >
+300-->[androidx.emoji2:emoji2:1.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cda509cc96bd5991df7deaeed19a12fa\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+301            <meta-data
+301-->[androidx.emoji2:emoji2:1.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cda509cc96bd5991df7deaeed19a12fa\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+302                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+302-->[androidx.emoji2:emoji2:1.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cda509cc96bd5991df7deaeed19a12fa\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+303                android:value="androidx.startup" />
+303-->[androidx.emoji2:emoji2:1.2.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\cda509cc96bd5991df7deaeed19a12fa\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+304            <meta-data
+304-->[androidx.lifecycle:lifecycle-process:2.6.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\5b9ac6df61a3234f9a51fca21f225c77\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+305                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+305-->[androidx.lifecycle:lifecycle-process:2.6.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\5b9ac6df61a3234f9a51fca21f225c77\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+306                android:value="androidx.startup" />
+306-->[androidx.lifecycle:lifecycle-process:2.6.1] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\5b9ac6df61a3234f9a51fca21f225c77\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+307            <meta-data
+307-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+308                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+308-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+309                android:value="androidx.startup" />
+309-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+310        </provider>
+311        <provider
+311-->[com.google.firebase:firebase-common:20.4.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\51eb42b334691e771d1e321cb2b4384a\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+312            android:name="com.google.firebase.provider.FirebaseInitProvider"
+312-->[com.google.firebase:firebase-common:20.4.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\51eb42b334691e771d1e321cb2b4384a\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+313            android:authorities="com.example.chatapp.firebaseinitprovider"
+313-->[com.google.firebase:firebase-common:20.4.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\51eb42b334691e771d1e321cb2b4384a\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+314            android:directBootAware="true"
+314-->[com.google.firebase:firebase-common:20.4.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\51eb42b334691e771d1e321cb2b4384a\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+315            android:exported="false"
+315-->[com.google.firebase:firebase-common:20.4.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\51eb42b334691e771d1e321cb2b4384a\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+316            android:initOrder="100" />
+316-->[com.google.firebase:firebase-common:20.4.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\51eb42b334691e771d1e321cb2b4384a\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+317
+318        <activity
+318-->[com.google.android.gms:play-services-auth:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21ffa98b68bef50c574a04224c48e330\transformed\play-services-auth-20.3.0\AndroidManifest.xml:23:9-27:75
+319            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+319-->[com.google.android.gms:play-services-auth:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21ffa98b68bef50c574a04224c48e330\transformed\play-services-auth-20.3.0\AndroidManifest.xml:24:13-93
+320            android:excludeFromRecents="true"
+320-->[com.google.android.gms:play-services-auth:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21ffa98b68bef50c574a04224c48e330\transformed\play-services-auth-20.3.0\AndroidManifest.xml:25:13-46
+321            android:exported="false"
+321-->[com.google.android.gms:play-services-auth:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21ffa98b68bef50c574a04224c48e330\transformed\play-services-auth-20.3.0\AndroidManifest.xml:26:13-37
+322            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+322-->[com.google.android.gms:play-services-auth:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21ffa98b68bef50c574a04224c48e330\transformed\play-services-auth-20.3.0\AndroidManifest.xml:27:13-72
+323        <!--
+324            Service handling Google Sign-In user revocation. For apps that do not integrate with
+325            Google Sign-In, this service will never be started.
+326        -->
+327        <service
+327-->[com.google.android.gms:play-services-auth:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21ffa98b68bef50c574a04224c48e330\transformed\play-services-auth-20.3.0\AndroidManifest.xml:33:9-37:51
+328            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+328-->[com.google.android.gms:play-services-auth:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21ffa98b68bef50c574a04224c48e330\transformed\play-services-auth-20.3.0\AndroidManifest.xml:34:13-89
+329            android:exported="true"
+329-->[com.google.android.gms:play-services-auth:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21ffa98b68bef50c574a04224c48e330\transformed\play-services-auth-20.3.0\AndroidManifest.xml:35:13-36
+330            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+330-->[com.google.android.gms:play-services-auth:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21ffa98b68bef50c574a04224c48e330\transformed\play-services-auth-20.3.0\AndroidManifest.xml:36:13-107
+331            android:visibleToInstantApps="true" />
+331-->[com.google.android.gms:play-services-auth:20.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21ffa98b68bef50c574a04224c48e330\transformed\play-services-auth-20.3.0\AndroidManifest.xml:37:13-48
+332
+333        <activity
+333-->[com.google.android.gms:play-services-base:18.1.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\ea1d2155169063a3e7b8f244bebaf5b6\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+334            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+334-->[com.google.android.gms:play-services-base:18.1.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\ea1d2155169063a3e7b8f244bebaf5b6\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+335            android:exported="false"
+335-->[com.google.android.gms:play-services-base:18.1.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\ea1d2155169063a3e7b8f244bebaf5b6\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+336            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+336-->[com.google.android.gms:play-services-base:18.1.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\ea1d2155169063a3e7b8f244bebaf5b6\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+337
+338        <receiver
+338-->[com.google.android.gms:play-services-measurement:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a9ec286dd1ecfe772d4704af5394875d\transformed\play-services-measurement-19.0.2\AndroidManifest.xml:29:9-33:20
+339            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+339-->[com.google.android.gms:play-services-measurement:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a9ec286dd1ecfe772d4704af5394875d\transformed\play-services-measurement-19.0.2\AndroidManifest.xml:30:13-85
+340            android:enabled="true"
+340-->[com.google.android.gms:play-services-measurement:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a9ec286dd1ecfe772d4704af5394875d\transformed\play-services-measurement-19.0.2\AndroidManifest.xml:31:13-35
+341            android:exported="false" >
+341-->[com.google.android.gms:play-services-measurement:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a9ec286dd1ecfe772d4704af5394875d\transformed\play-services-measurement-19.0.2\AndroidManifest.xml:32:13-37
+342        </receiver>
+343
+344        <service
+344-->[com.google.android.gms:play-services-measurement:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a9ec286dd1ecfe772d4704af5394875d\transformed\play-services-measurement-19.0.2\AndroidManifest.xml:35:9-38:40
+345            android:name="com.google.android.gms.measurement.AppMeasurementService"
+345-->[com.google.android.gms:play-services-measurement:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a9ec286dd1ecfe772d4704af5394875d\transformed\play-services-measurement-19.0.2\AndroidManifest.xml:36:13-84
+346            android:enabled="true"
+346-->[com.google.android.gms:play-services-measurement:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a9ec286dd1ecfe772d4704af5394875d\transformed\play-services-measurement-19.0.2\AndroidManifest.xml:37:13-35
+347            android:exported="false" />
+347-->[com.google.android.gms:play-services-measurement:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a9ec286dd1ecfe772d4704af5394875d\transformed\play-services-measurement-19.0.2\AndroidManifest.xml:38:13-37
+348        <service
+348-->[com.google.android.gms:play-services-measurement:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a9ec286dd1ecfe772d4704af5394875d\transformed\play-services-measurement-19.0.2\AndroidManifest.xml:39:9-43:72
+349            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+349-->[com.google.android.gms:play-services-measurement:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a9ec286dd1ecfe772d4704af5394875d\transformed\play-services-measurement-19.0.2\AndroidManifest.xml:40:13-87
+350            android:enabled="true"
+350-->[com.google.android.gms:play-services-measurement:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a9ec286dd1ecfe772d4704af5394875d\transformed\play-services-measurement-19.0.2\AndroidManifest.xml:41:13-35
+351            android:exported="false"
+351-->[com.google.android.gms:play-services-measurement:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a9ec286dd1ecfe772d4704af5394875d\transformed\play-services-measurement-19.0.2\AndroidManifest.xml:42:13-37
+352            android:permission="android.permission.BIND_JOB_SERVICE" />
+352-->[com.google.android.gms:play-services-measurement:19.0.2] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a9ec286dd1ecfe772d4704af5394875d\transformed\play-services-measurement-19.0.2\AndroidManifest.xml:43:13-69
+353
+354        <uses-library
+354-->[androidx.window:window:1.0.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a255db3cb410e7e6ea3f235ee82bea29\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+355            android:name="androidx.window.extensions"
+355-->[androidx.window:window:1.0.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a255db3cb410e7e6ea3f235ee82bea29\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+356            android:required="false" />
+356-->[androidx.window:window:1.0.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a255db3cb410e7e6ea3f235ee82bea29\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+357        <uses-library
+357-->[androidx.window:window:1.0.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a255db3cb410e7e6ea3f235ee82bea29\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+358            android:name="androidx.window.sidecar"
+358-->[androidx.window:window:1.0.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a255db3cb410e7e6ea3f235ee82bea29\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+359            android:required="false" />
+359-->[androidx.window:window:1.0.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\a255db3cb410e7e6ea3f235ee82bea29\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+360
+361        <service
+361-->[com.google.android.datatransport:transport-backend-cct:3.1.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\1c854d1a6d02cc74b8b1da18bc205f23\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+362            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+362-->[com.google.android.datatransport:transport-backend-cct:3.1.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\1c854d1a6d02cc74b8b1da18bc205f23\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+363            android:exported="false" >
+363-->[com.google.android.datatransport:transport-backend-cct:3.1.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\1c854d1a6d02cc74b8b1da18bc205f23\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+364            <meta-data
+364-->[com.google.android.datatransport:transport-backend-cct:3.1.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\1c854d1a6d02cc74b8b1da18bc205f23\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+365                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+365-->[com.google.android.datatransport:transport-backend-cct:3.1.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\1c854d1a6d02cc74b8b1da18bc205f23\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+366                android:value="cct" />
+366-->[com.google.android.datatransport:transport-backend-cct:3.1.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\1c854d1a6d02cc74b8b1da18bc205f23\transformed\transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+367        </service>
+368        <service
+368-->[com.google.android.datatransport:transport-runtime:3.1.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21efac94d61206cdf8378b712768dff4\transformed\transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+369            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+369-->[com.google.android.datatransport:transport-runtime:3.1.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21efac94d61206cdf8378b712768dff4\transformed\transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+370            android:exported="false"
+370-->[com.google.android.datatransport:transport-runtime:3.1.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21efac94d61206cdf8378b712768dff4\transformed\transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+371            android:permission="android.permission.BIND_JOB_SERVICE" >
+371-->[com.google.android.datatransport:transport-runtime:3.1.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21efac94d61206cdf8378b712768dff4\transformed\transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+372        </service>
+373
+374        <receiver
+374-->[com.google.android.datatransport:transport-runtime:3.1.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21efac94d61206cdf8378b712768dff4\transformed\transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+375            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+375-->[com.google.android.datatransport:transport-runtime:3.1.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21efac94d61206cdf8378b712768dff4\transformed\transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+376            android:exported="false" />
+376-->[com.google.android.datatransport:transport-runtime:3.1.8] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\21efac94d61206cdf8378b712768dff4\transformed\transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+377        <receiver
+377-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+378            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+378-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+379            android:directBootAware="false"
+379-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+380            android:enabled="true"
+380-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+381            android:exported="true"
+381-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+382            android:permission="android.permission.DUMP" >
+382-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+383            <intent-filter>
+383-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+384                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+384-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+384-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+385            </intent-filter>
+386            <intent-filter>
+386-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+387                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+387-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+387-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+388            </intent-filter>
+389            <intent-filter>
+389-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+390                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+390-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+390-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+391            </intent-filter>
+392            <intent-filter>
+392-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+393                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+393-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+393-->[androidx.profileinstaller:profileinstaller:1.3.0] D:\ChatApp2\ChatApp2\.gradle\caches\transforms-3\fb2914d012e4cbd36bc7d41b8a4dd615\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+394            </intent-filter>
+395        </receiver>
+396    </application>
+397
+398</manifest>

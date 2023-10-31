@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\xml_data_extraction_rules.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable_messagebackground.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\drawable\\messagebackground.xml"
+    },
+    {
+        "merged": "com.example.chatapp-merged_res-56:/layout_activity_set_profile.xml.flat",
+        "source": "com.example.chatapp-main-58:/layout/activity_set_profile.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable_mychatapplogo.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\drawable\\mychatapplogo.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-ldpi_baseline_more_vert_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-ldpi\\baseline_more_vert_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\xml_backup_rules.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-hdpi_baseline_more_vert_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-hdpi\\baseline_more_vert_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable_mychatapplogo2.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\drawable\\mychatapplogo2.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_fragment_second.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\menu_menu.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\menu\\menu.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-anydpi-v21_baseline_more_vert_24.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-anydpi-v21\\baseline_more_vert_24.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-ldpi_baseline_arrow_back_ios_new_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-ldpi\\baseline_arrow_back_ios_new_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-hdpi_baseline_arrow_back_ios_new_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-hdpi\\baseline_arrow_back_ios_new_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-xhdpi_baseline_arrow_back_ios_new_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-xhdpi\\baseline_arrow_back_ios_new_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_activity_otp_authentication.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_otp_authentication.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_senderchatlayout.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\senderchatlayout.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-mdpi_baseline_arrow_forward_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-mdpi\\baseline_arrow_forward_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_chatfragment.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\chatfragment.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-mdpi_baseline_more_vert_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-mdpi\\baseline_more_vert_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-ldpi_baseline_arrow_forward_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-ldpi\\baseline_arrow_forward_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_activity_update_profile.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_update_profile.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-anydpi-v21_baseline_person_2_24.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-anydpi-v21\\baseline_person_2_24.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-xhdpi_baseline_arrow_forward_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-xhdpi\\baseline_arrow_forward_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-hdpi_baseline_arrow_forward_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-hdpi\\baseline_arrow_forward_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable_senderchatdrawable.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\drawable\\senderchatdrawable.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_activity_chat.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_activity_userprofile.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_userprofile.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-mdpi_baseline_arrow_back_ios_new_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-mdpi\\baseline_arrow_back_ios_new_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-ldpi_baseline_person_2_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-ldpi\\baseline_person_2_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_callfragment.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\callfragment.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_fragment_first.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_content_userprofile.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\content_userprofile.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_activity_specificchat.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_specificchat.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-xxxhdpi_baseline_more_vert_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-xxxhdpi\\baseline_more_vert_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-xxxhdpi_baseline_arrow_back_ios_new_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-xxxhdpi\\baseline_arrow_back_ios_new_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_receiverchatlayout.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\receiverchatlayout.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_chatviewlayout.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\chatviewlayout.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable_receiverchatdrawable.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\drawable\\receiverchatdrawable.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\navigation_nav_graph.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-xhdpi_baseline_person_2_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-xhdpi\\baseline_person_2_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-anydpi-v21_baseline_arrow_back_ios_new_24.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-anydpi-v21\\baseline_arrow_back_ios_new_24.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-xxxhdpi_baseline_arrow_forward_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-xxxhdpi\\baseline_arrow_forward_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_activity_main.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-hdpi_baseline_person_2_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-hdpi\\baseline_person_2_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-xxxhdpi_baseline_person_2_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-xxxhdpi\\baseline_person_2_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-mdpi_baseline_person_2_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-mdpi\\baseline_person_2_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-xxhdpi_baseline_arrow_back_ios_new_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-xxhdpi\\baseline_arrow_back_ios_new_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_activity_splashscreen.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_splashscreen.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_activity_profile.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-anydpi-v21_baseline_arrow_forward_24.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-anydpi-v21\\baseline_arrow_forward_24.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_activity_set_profile.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_set_profile.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-xxhdpi_baseline_person_2_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-xxhdpi\\baseline_person_2_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-xhdpi_baseline_more_vert_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-xhdpi\\baseline_more_vert_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-xxhdpi_baseline_more_vert_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-xxhdpi\\baseline_more_vert_24.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\layout_statusfragment.xml.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\statusfragment.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable_defaultprofile.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\drawable\\defaultprofile.png"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-merged_res-56:\\drawable-xxhdpi_baseline_arrow_forward_24.png.flat",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-pngs-51:\\drawable-xxhdpi\\baseline_arrow_forward_24.png"
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\fragment_first.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\content_userprofile.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\content_userprofile.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\senderchatlayout.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\senderchatlayout.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\activity_specificchat.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_specificchat.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\activity_otp_authentication.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_otp_authentication.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\callfragment.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\callfragment.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\chatviewlayout.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\chatviewlayout.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\activity_chat.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\chatfragment.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\chatfragment.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\activity_update_profile.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_update_profile.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\activity_set_profile.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_set_profile.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\statusfragment.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\statusfragment.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\fragment_second.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\receiverchatlayout.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\receiverchatlayout.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\activity_profile.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "com.example.chatapp-mergeDebugResources-55:/layout/activity_set_profile.xml",
+        "source": "com.example.chatapp-main-58:/layout/activity_set_profile.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\activity_main.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\activity_splashscreen.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_splashscreen.xml"
+    },
+    {
+        "merged": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-mergeDebugResources-55:\\layout\\activity_userprofile.xml",
+        "source": "D:\\ChatApp2\\ChatApp2\\.gradle\\daemon\\8.0\\com.example.chatapp-main-58:\\layout\\activity_userprofile.xml"
+    }
+]
